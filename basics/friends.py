@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+
+
 def main():
     friends=['Tere', 'Moicas', 'Marco', 'Fabio']
 

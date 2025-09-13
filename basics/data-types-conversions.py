@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import typing
 
 # integer
 print(type(1))
@@ -19,7 +20,9 @@ age: int = 25
 price: float = 19.99
 
 # Define a variable of type list
-list_of_numbers: typing.List[int] = [1, 2, 3]
+list_of_numbers: typing.List[int] = [1,2,3]
+list_of_numbers.append("hola")
+print(list_of_numbers)
 
 # Define a variable of type tuple
 tuple_of_numbers: typing.Tuple[int, int, int] = (1, 2, 3)
@@ -29,6 +32,12 @@ dictionary: typing.Dict[str, int] = {"key1": 1, "key2": 2}
 
 # Define a variable of type set
 set_of_numbers: typing.Set[int] = {1, 2, 3}
+
+# Notacion Cientifica
+a: float = 1.3E3
+b: float = 1.3E-3
+
+print("a: {0}\nb: {1}".format(a,b))
 
 
 print(type(lastName))
