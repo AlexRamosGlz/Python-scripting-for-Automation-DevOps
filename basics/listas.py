@@ -106,3 +106,23 @@ print(f"Primer valor de la tupla number es {number[0]}")
     # NOTA: tambien se pueden declara notas de la siguiente manera...
     #
     #               another_tuple: tuple[int] = 6,7,8,9,10
+    
+
+#####################################
+##      comprehesions list         ##
+#####################################
+
+# Las comprehensions list son una forma concisa y eficiente de crear listas basadas en otros
+# iterables existentes.
+#
+# Condensa la logica de un loop for y opcionalmente una condicion if en una sola linea
+# de codigo.
+#
+farenheit = [(temp * 9/5) * 32 for temp in range(10, 50, 10)]
+
+    # ['expression' for 'item' in 'iterable' if 'condition']
+
+print(farenheit)
+
+even_numbers = [num for num in range(20) if num%2 == 0]
+print(even_numbers)
