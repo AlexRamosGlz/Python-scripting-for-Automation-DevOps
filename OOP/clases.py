@@ -1,3 +1,5 @@
+import dataclasses
+
 class Person:
     
     def __init__(self, name: str, age: int):
@@ -10,3 +12,4 @@ class Person:
 
 tere = Person("Tere", 25)
 tere.greet()
+
