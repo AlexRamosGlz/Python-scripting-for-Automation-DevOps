@@ -20,3 +20,9 @@ class Vehicle:
             
     def get_is_available(self):
         return self.is_available
+    
+    def start_enginge(self):
+        raise NotImplementedError("El metodo debe ser implementado por la subClase")
+    
+    def stop_enginge(self):
+        raise NotImplementedError("El metodo debe ser implementado por la subClase")
