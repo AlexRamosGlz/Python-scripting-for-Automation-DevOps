@@ -46,7 +46,7 @@ try:
     open("updated_products.csv", 'x')
 except FileExistsError as error:
     print(error)
-    
+
 with open("products.csv", mode="r") as file:
     csv_reader = csv.DictReader(file)
     
